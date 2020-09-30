@@ -1,0 +1,1 @@
+select SUM(balance) from account,branch where branch.branch_name = account.branch_name and branch_city = 'Lisbon';
